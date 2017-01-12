@@ -1,0 +1,73 @@
+.top-bar{
+	background-color: #fdc58b;
+	height: 3.75rem;
+}
+
+.has-dropdown not-click{
+	background-color: #e26826;
+}
+
+.top-bar img{
+height: 3.3rem;
+padding-top: 5px;
+box-sizing: border-box;
+}
+
+.top-bar-section .has-dropdown{
+	height: 3.75rem;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	line-height: 3.75rem;
+
+}
+
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+	background: red;
+	color: white;
+}
+.opt {.top-bar-section li:not(.has-form) a:not(.button)  {
+	line-height: 1rem;
+
+}
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	line-height: 3.75rem;
+
+}
+
+.top-bar-section ul li {
+background: #8C001A;
+color: white;
+
+}
+
+.intro{
+	text-align: justify;
+}
+
+.button-group {
+	padding: 2rem;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+body, h5, h4{
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.top-bar-section ul li > a {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+h3{
+	font-family: 'Rubik One', sans-serif;
+	text-align: center;
+}
+footer, footer h4 {
+    background-color:#a63737;
+    color: white;
+    font-size: 1rem;
+    text-align: right;
+}
+
