@@ -48,9 +48,9 @@ color: white;
 	text-align: justify;
 }
 
-.small-6 small-centered text-center columns {
-
+.button-group {
 	padding: 2rem;
+	font-family: 'Nunito Sans', sans-serif;
 
 }
 
@@ -61,8 +61,6 @@ color: white;
 	height: 6rem;
 	line-height: 4rem;
 	font-size: 1.2rem;
-
-	font-family: 'Nunito Sans', sans-serif;
 }
 
 
@@ -89,14 +87,3 @@ footer, footer h4 {
     text-align: right;
 }
 
-
-.category-blocks .icons{
-
-	margin-top: -20px;
-}
-
-
-.category-blocks h4{
-
-margin-bottom: 0px;
-}

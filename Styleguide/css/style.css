@@ -44,59 +44,43 @@ color: white;
 
 }
 
-.intro{
-	text-align: justify;
-}
 
-.small-6 small-centered text-center columns {
-
-	padding: 2rem;
-
-}
-
-.button {
-	
-	background-color: #D35E28;
-	font-family: 'Nunito Sans', sans-serif;
-	height: 6rem;
-	line-height: 4rem;
-	font-size: 1.2rem;
-
-	font-family: 'Nunito Sans', sans-serif;
-}
-
-
- button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #BE5524; }
-
-
-body, h5, h4{
-	font-family: 'Nunito Sans', sans-serif;
-}
-
-.top-bar-section ul li > a {
-	font-family: 'Nunito Sans', sans-serif;
-}
-
-h3{
-	font-family: 'Rubik One', sans-serif;
-	text-align: center;
-}
 footer, footer h4 {
     background-color:#a63737;
     color: white;
-    font-size: 1rem;
-    text-align: right;
+    font-size: .8rem;
+}
+
+body, h5, h4, h6{
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+h1, h2, h3{
+	font-family: 'Rubik One', sans-serif;
+
+}
+
+svg{
+	padding: 3rem;
 }
 
 
-.category-blocks .icons{
-
-	margin-top: -20px;
+.one{
+	color: #FDC58B;
 }
 
+.two{
+	color: #E59A59;
+}
 
-.category-blocks h4{
+.three{
+	color: #D35E28;
+}
 
-margin-bottom: 0px;
+.four{
+	color: #A63737;
+}
+
+.five{
+	color: #732626;
 }
