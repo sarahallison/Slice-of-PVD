@@ -43,7 +43,9 @@ background: #8C001A;
 color: white;
 
 }
-
+.top-bar-section ul li > a {
+	font-family: 'Nunito Sans', sans-serif;
+}
 .intro{
 	text-align: justify;
 }
@@ -72,18 +74,105 @@ body, h5, h4{
 	font-family: 'Nunito Sans', sans-serif;
 }
 
-.top-bar-section ul li > a {
-	font-family: 'Nunito Sans', sans-serif;
+.Description li{
+	list-style:none;
 }
+
 
 h3{
 	font-family: 'Rubik One', sans-serif;
 	text-align: center;
 }
-footer, footer h4 {
-    background-color:#a63737;
-    color: white;
-    font-size: 1rem;
-    text-align: right;
-}
 
+
+
+
+.footer {
+  background-color:#a63737;
+  color: #fff;
+  text-align: center;
+  font-size: .8rem;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 1.8rem 1rem .4rem; }
+  .footer .inline-list a {
+  	font-family: 'Nunito Sans', sans-serif;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 3px 0 0; }
+  .footer .contact {
+    list-style-type: none;
+    margin: 0;
+    text-align: left;
+    color: #fff; }
+    .footer .contact li {
+    	font-family: 'Nunito Sans', sans-serif;
+      margin-bottom: 1.2rem; }
+      .footer .contact li p {
+      	font-family: 'Nunito Sans', sans-serif;
+        padding-left: 5rem; }
+    .footer .contact i {
+      position: absolute;
+      line-height: 1;
+      margin: 0 0 0 -4rem;
+      vertical-align: middle;
+      padding: .25em .45em; }
+  .footer .copywrite {
+    font-size: 0.875rem;
+    margin: 0 0 1rem 0; }
+  .footer .about {
+    font-size: 0.875rem;
+    margin: 0 0 1rem 0; }
+  .footer .footer-links a {
+    list-style: none;
+    font-weight: normal;
+    color: #fff;
+    padding: 3rem 0 2rem;
+    margin: 0;
+    font-size: 0.875rem; }
+    .footer .footer-links a::after {
+      content: "•";
+      padding: 0 0.2rem 0 0.4rem; }
+    .footer .footer-links a:last-child::after {
+      content: "";
+      padding: 0 0.4rem 0 0.8rem; }
+  @media only screen and (min-width: 40.063em) {
+    .footer p {
+      text-align: left; }
+    .footer .social {
+      text-align: left;
+      margin: 0; }
+    .footer .contact {
+      text-align: left; }
+      .footer .contact > i {
+        margin-right: 1rem; } }
+
+        .subheader {
+        	color: white;
+
+	        }
+
+	.footer a{
+		color: white;
+	}
+
+	.footer .fa{
+		padding-right: .8rem;
+	}
+
+	.explain a{
+		color: black;
+	}
+
+	.explain .fa{
+		margin-left: 5rem;
+	}
+
+
+	.icons a{
+		color: black;
+	}
+
+	.icons .fa{
+		color: black;
+	}
